@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="25" fill="url(#grad)" />
+  
+  <!-- Main Pad -->
+  <path fill="white" d="M50 55 c-12 0 -20 8 -20 18 c 0 10 10 15 20 15 c 10 0 20 -5 20 -15 c 0 -10 -8 -18 -20 -18 Z" />
+  
+  <!-- Toes -->
+  <ellipse cx="28" cy="42" rx="7" ry="9" fill="white" transform="rotate(-20 28 42)" />
+  <ellipse cx="43" cy="32" rx="7" ry="9" fill="white" transform="rotate(-10 43 32)" />
+  <ellipse cx="57" cy="32" rx="7" ry="9" fill="white" transform="rotate(10 57 32)" />
+  <ellipse cx="72" cy="42" rx="7" ry="9" fill="white" transform="rotate(20 72 42)" />
+</svg>
